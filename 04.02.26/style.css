@@ -1,0 +1,95 @@
+body {
+    font-family: "Times New Roman", serif;
+    background-color: #ffffff;
+}
+
+code {
+    font-weight: none;
+    color: hsl(0, 0%, 0%);
+    font-size: 19px;
+}
+
+.task-block {
+    width: 600px;
+    margin: 30px;
+    padding: 20px 30px;
+    border: 2px solid #000000;
+    background: #c8ffb9; /* светло-зелёный как на образце */
+}
+
+/* Заголовок вверху блока */
+.task-title {
+    text-align: center;
+    margin: 0 0 15px 0;
+}
+
+/* Цветные слова в заголовке */
+.bold-red {
+    font-weight: bold;
+    color: #ff0000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.bold-green {
+    font-weight: bold;
+    color: #00aa00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+/* Первый абзац */
+.first-paragraph {
+    margin: 0 0 10px 0;
+}
+
+.big-blue {
+    font-size: 28px;
+    color: #0000aa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.underline-blue {
+    color: #0000aa;
+    text-decoration: underline;
+}
+
+/* Второй абзац */
+.second-paragraph {
+    margin: 0 0 10px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+/* Третий абзац */
+.third-paragraph {
+    margin: 0;
+    font-size: 14px;
+}
+
+.cite {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.tag {
+    font-weight: bold;
+}
+
+.indent {
+    text-decoration: underline;
+}
+
+.ul-marker {
+    text-decoration: underline;
+}
+
+.ol-elements {
+    color: #ff9900;
+}
